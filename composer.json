@@ -1,7 +1,20 @@
 {
+    "description": "Projeto para buscar cursos",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Gabriel Alves",
+            "email": "gabriell_cerqueira09@hotmail.com"
+        }
+    ],
     "require": {
         "guzzlehttp/guzzle": "^7.5",
         "symfony/dom-crawler": "^5.4",
         "symfony/css-selector": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
     }
 }
