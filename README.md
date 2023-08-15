@@ -1,1 +1,3 @@
-# buscador_php
+# Documentação do componente
+
+Este componente é SUPIMPA!!
